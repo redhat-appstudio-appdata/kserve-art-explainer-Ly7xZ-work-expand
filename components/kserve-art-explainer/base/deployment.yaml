@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-art-explainer
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-art-explainer/kserve-art-explainer@sha256:7aaa0216a25733c73d4a93cac75e51f142e3d230bdac7875e64f92eac166ec79
         imagePullPolicy: Always
         name: container-image
         ports:
